@@ -1,14 +1,40 @@
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.adbar-container {
+    background-color: rgb(94, 94, 94);
+    color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
 .navbar-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(187, 231, 181);
+    background-color: rgb(228, 250, 225);
     height: 50px;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar-title {
     color: rgb(39, 39, 39);
     font-size: 36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-title-bold {
+    font-weight: 800 !important;
 }
