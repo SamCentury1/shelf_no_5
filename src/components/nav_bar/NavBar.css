@@ -1,0 +1,14 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(100, 2, 23);
+    height: 50px;
+    width: 100vw;
+}
+
+.navbar-title {
+    color: rgb(212, 212, 212);
+    font-size: 36px;
+}
